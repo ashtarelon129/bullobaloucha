@@ -10,11 +10,15 @@ html {
 }
 body {
   background-image: url("wallpaper.jpg");
-  background-size: cover;
+  background-size: cover; 
   background-repeat: no-repeat;
   background-position: center;
 }
-@media only screen and (max-width:800px) { 
+@media only screen and (max-width:1000px) { 
+  body{
+    width:1000px
+    }
+  
   li, a{
   padding: -5px ;
     font-size: 12px;
